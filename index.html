@@ -6,11 +6,120 @@
    <title>Donate to Develop !</title>
    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
    <script src="https://cdn.tailwindcss.com"></script>
+   <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+
+
+
+            colors: {
+              clifford: '#da373d',
+             'clr':'rgba(249, 247, 243, 1)',
+            }
+            
+          }
+        }
+      }
+    </script>
 </head>
 <body>
    
- 
+ <header class="bg-clr sticky top-0">
+   <div class="navbar  container mx-auto">
+      <div class="navbar-start">
+        <a href="" class="btn bg-green-400  text-sm lg:text-xl">Blogs</a>
+        
+      </div>
+      <div class="navbar-center  lg:flex">
+        <img src="/assets/logo.png" alt="" class="">
+        
+        <h2 class="text-lg font-bold ml-4  ">Donate <br>Bangladesh</h2>
+      </div>
+      <div class="navbar-end max-[750px]:hidden">
+        <img src="/assets/coin.png" class="mr-6"  alt="">
+        <h2 class="text-lg font-bold">5000</h2>
+        <h2 class="text-lg font-bold">BDT</h2>
+      </div> 
+    </div>
+ </header>
 
+ <section class="mt-16">
+    <div class="border-2 h-12 w-24 ml-40 flex items-center lg:hidden">
+      <img src="/assets/coin.png" alt="">
+      <h2 class=" ">5000</h2>
+      <h2>BDT</h2>
+    </div>
+ </section>
+
+ <section>
+      <div class="ml-[20vw] lg:ml-[40vw]">
+         <button  class="w-28 h-11 rounded-md mt-7  bg-green-600 lg:text-2xl" id="donate">Donation</button>
+         <button  onmouseover="changeColor()" onmouseout="normalColor()" id="histry"  class="w-28 h-11 rounded-md mt-7 ml-7  lg:text-2xl">History</button>
+      </div>
+ </section>
+
+ <section class="container mx-auto  mt-20">
+
+   <div class=" border-2 rounded-lg p-4   lg:flex ">
+      <img src="/assets/noakhali.png" alt="" class="h-[30vh] w-[70vw] ml-[10vw] lg:w-[40vw] lg:h-[50vh] lg:ml-0">
+      <div>
+               <div class="bg-clr  ml-[40vw] mt-[3vh] lg:p-5  w-[20vw] h-[8vh] rounded-md  flex items-center lg:w-[6vw] lg:ml-[3vw]">
+                  <img src="/assets/coin.png" class="  h-[5vh] w-[5vw] lg:w-[2vw] lg:h-[4vh]"   alt="">
+                  <h2 class=" ml-1 text-lg font-bold">0</h2>
+                  <h2 class="ml-1 text-lg font-bold">BDT</h2>
+               </div>
+
+               <h1 class="ml-[8vw] mt-[3vh] text-lg font-bold lg:ml-[3vw]">Donate <span>for flood at Noakhali, Bangladesh</span></h1>
+               <p class="w-[85vw] ml-[5vw] mt-[3vh]  lg:w-[30vw] lg:ml-[3vw]">At Noakhali,Bangladesh a sudden flood affected the basic life of the rural people living there.This sudden flood just made locals life complex.There is scarcity of food,medicines,sanitation.So in this case a little help from your side can make a significant change in their life condition.Donate acccording to your limit,please.</p>
+
+               <input placeholder="Enter your Amount" type="text" class="ml-[6vw] border-2 mt-6 w-[75vw] h-[5vh] lg:w-[30vw] lg:ml-[3vw]">
+               <button class="btn w-[70vw]  ml-[10vw] mt-[3vh] lg:w-[30vw] lg:ml-[3vw]">Donate Now</button>
+      </div>
+   </div>
+
+   <div class=" border-2 rounded-lg p-4 mt-[10vh]  lg:flex ">
+      <img src="/assets/feni.png" alt="" class="h-[30vh] w-[70vw] ml-[10vw] lg:w-[40vw] lg:h-[50vh] lg:ml-0">
+      <div>
+               <div class="bg-clr  ml-[40vw] mt-[3vh] lg:p-5  w-[20vw] h-[8vh] rounded-md  flex items-center lg:w-[6vw] lg:ml-[3vw]">
+                  <img src="/assets/coin.png" class="  h-[5vh] w-[5vw] lg:w-[2vw] lg:h-[4vh]"   alt="">
+                  <h2 class=" ml-1 text-lg font-bold">0</h2>
+                  <h2 class="ml-1 text-lg font-bold">BDT</h2>
+               </div>
+
+               <h1 class="ml-[8vw] mt-[3vh] text-lg font-bold lg:ml-[3vw]">Donate <span>for food relief in feni, Bangladesh</span></h1>
+               <p class="w-[85vw] ml-[5vw] mt-[3vh]  lg:w-[30vw] lg:ml-[3vw]">At Noakhali,Bangladesh a sudden flood affected the basic life of the rural people living there.This sudden flood just made locals life complex.There is scarcity of food,medicines,sanitation.So in this case a little help from your side can make a significant change in their life condition.Donate acccording to your limit,please.</p>
+
+               <input placeholder="Enter your Amount" type="text" class="ml-[6vw] border-2 mt-6 w-[75vw] h-[5vh] lg:w-[30vw] lg:ml-[3vw]">
+               <button class="btn w-[70vw]  ml-[10vw] mt-[3vh] lg:w-[30vw] lg:ml-[3vw]">Donate Now</button>
+      </div>
+   </div>
+
+   <div class=" border-2 rounded-lg p-4  mt-[10vh] lg:flex ">
+      <img src="/assets/quota-protest.png" alt="" class="h-[30vh] w-[70vw] ml-[10vw] lg:w-[40vw] lg:h-[50vh] lg:ml-0">
+      <div>
+               <div class="bg-clr  ml-[40vw] mt-[3vh] lg:p-5  w-[20vw] h-[8vh] rounded-md  flex items-center lg:w-[6vw] lg:ml-[3vw]">
+                  <img src="/assets/coin.png" class="  h-[5vh] w-[5vw] lg:w-[2vw] lg:h-[4vh]"   alt="">
+                  <h2 class=" ml-1 text-lg font-bold">0</h2>
+                  <h2 class="ml-1 text-lg font-bold">BDT</h2>
+               </div>
+
+               <h1 class="ml-[8vw] mt-[3vh] text-lg font-bold lg:ml-[3vw]">Aid<span> for the injured in quota movement</span></h1>
+               <p class="w-[85vw] ml-[5vw] mt-[3vh]  lg:w-[30vw] lg:ml-[3vw]">At Noakhali,Bangladesh a sudden flood affected the basic life of the rural people living there.This sudden flood just made locals life complex.There is scarcity of food,medicines,sanitation.So in this case a little help from your side can make a significant change in their life condition.Donate acccording to your limit,please.</p>
+
+               <input placeholder="Enter your Amount" type="text" class="ml-[6vw] border-2 mt-6 w-[75vw] h-[5vh] lg:w-[30vw] lg:ml-[3vw]">
+               <button class="btn w-[70vw]  ml-[10vw] mt-[3vh] lg:w-[30vw] lg:ml-[3vw]">Donate Now</button>
+      </div>
+   </div>
+
+
+   
+
+   
+
+ </section>
+
+ 
 
    <script src="code.js"></script>
 </body>
