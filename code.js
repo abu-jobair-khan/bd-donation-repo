@@ -171,7 +171,7 @@ function history(x , str , time){
     p.innerText=`BDT  ${x} is donated ${str} at ${time}`;
     div.appendChild(p);
     document.body.appendChild(div);
-
+    
 
 }
 
